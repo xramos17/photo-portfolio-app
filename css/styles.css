@@ -1,0 +1,30 @@
+:root{
+    --title-font: 'Libre Baskerville', serif;
+    --secondary-font: font-family: 'Nunito Sans', sans-serif;
+}
+
+
+body{
+    padding:50px;
+}
+h1{
+    font-family: var(--title-font);
+   
+}
+h3{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+
+}
+
+.main{
+display:block;
+margin: 0 auto; 
+  background-color:whitesmoke;
+  padding: 20px 0px 20px 0px;
+  width:600px;
+  
+}
+.main a{
+color:black; 
+}
