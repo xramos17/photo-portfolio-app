@@ -1,50 +1,81 @@
-:root{
-    --title-font: 'Libre Baskerville', serif;
-    --secondary-font: font-family: 'Nunito Sans', sans-serif;
+:root {
+  --title-font: "Libre Baskerville", serif;
+  --secondary-font: "Nunito Sans", sans-serif;
 }
 
-.main{
-padding:160px 20px;
-background-color: whitesmoke;
-border-radius: 10px;
-
-  
+body {
+  margin-top: 50px;
 }
 
-h1{
-    font-size:70px;
-    font-family: var(--title-font);
-   
-   
-}
-h3{
-    font-family: var(--secondary-font);
-    font-size: 20px;
-    font-weight: bold;
+.navbar {
+  padding-left: 20px;
 }
 
-
-p{
-
-font-family: var(--secondary-font);
-font-weight: light;
-font-size:15px;
-
+.main {
+  padding: 160px 20px;
+  background-image: url("/img/photo-1.jpg");
+  background-size: cover;
 }
 
-.btn{
-
-border: 1px solid black; 
-color:black; 
-font-family: var(--secondary-font);
-font-weight: light;
-padding:15px 25px 15px 25px;
-border-radius: 10px;
-margin:20px;
+h1 {
+  font-size: 80px;
+  font-family: var(--title-font);
+  color: white;
+}
+h3 {
+  font-family: var(--secondary-font);
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
 }
 
-.btn:hover{
-color:white;
-background-color: black; ;
-border-color:black;
+h2 {
+  font-size: 40px;
+  font-family: var(--title-font);
+  line-height: 1.5;
+}
+h4 {
+  font-family: var(--title-font);
+  font-size: 30px;
+}
+p {
+  color: white;
+  font-family: var(--secondary-font);
+  font-weight: light;
+  font-size: 15px;
+}
+.p-port {
+  font-size: 18px;
+  color: #49494a;
+  font-family: var(--secondary-font);
+}
+
+.main-button {
+  border: 1px solid white;
+  color: white;
+  font-family: var(--secondary-font);
+  font-weight: light;
+  padding: 15px 25px 15px 25px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.main-button:hover {
+  color: black;
+  background-color: white;
+}
+
+.secondary-button {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  font-family: var(--secondary-font);
+  font-weight: light;
+  padding: 15px 25px 15px 25px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.img-homepage {
+  max-width: 90%;
 }
