@@ -6,9 +6,17 @@
 body {
   margin-top: 50px;
 }
-
+.navbar-brand {
+  font-family: var(--title-font);
+}
+.description {
+  padding: 120px 60px 120px 0px;
+}
+#navbarNav a {
+  font-family: var(--secondary-font);
+}
 .navbar {
-  padding-left: 20px;
+  padding-left: 20px 20px;
 }
 
 .main {
@@ -16,36 +24,8 @@ body {
   background-image: url("/img/photo-1.jpg");
   background-size: cover;
 }
-
-h1 {
-  font-size: 80px;
-  font-family: var(--title-font);
-  color: white;
-}
-h3 {
-  font-family: var(--secondary-font);
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-}
-
-h2 {
-  font-size: 40px;
-  font-family: var(--title-font);
-  line-height: 1.5;
-}
-h4 {
-  font-family: var(--title-font);
-  font-size: 30px;
-}
-p {
-  color: white;
-  font-family: var(--secondary-font);
-  font-weight: light;
-  font-size: 15px;
-}
 .p-port {
-  font-size: 18px;
+  font-size: 15px;
   color: #49494a;
   font-family: var(--secondary-font);
 }
@@ -59,7 +39,9 @@ p {
   border-radius: 10px;
   margin: 20px;
 }
-
+.featured {
+  background-color: #f8f9fa;
+}
 .main-button:hover {
   color: black;
   background-color: white;
@@ -77,5 +59,64 @@ p {
 }
 
 .img-homepage {
-  max-width: 90%;
+  max-width: 80%;
+}
+
+.img-mobile {
+  background-color: #f8f9fa;
+  margin: 20px auto;
+}
+h1 {
+  font-size: 80px;
+  font-family: var(--title-font);
+  color: white;
+}
+h3 {
+  font-family: var(--secondary-font);
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: var(--title-font);
+  text-align: left;
+}
+h4 {
+  font-family: var(--title-font);
+  font-size: 30px;
+}
+p {
+  color: white;
+  font-family: var(--secondary-font);
+  font-weight: light;
+  font-size: 15px;
+}
+
+@media (max-width: 992px) {
+  .description {
+    margin-top: 50px;
+    padding: 0px;
+  }
+
+  .secondary-button {
+    display: block;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  .top-desc {
+    display: none;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
 }
