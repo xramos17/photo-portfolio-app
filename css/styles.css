@@ -66,6 +66,17 @@ body {
   background-color: #f8f9fa;
   margin: 20px auto;
 }
+
+.footer i {
+  margin: 20px;
+  font-size: 35px;
+  direction: flex;
+}
+.name-alex {
+  font-family: var(--secondary-font);
+  font-size: 15px;
+}
+
 h1 {
   font-size: 80px;
   font-family: var(--title-font);
