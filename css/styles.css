@@ -4,7 +4,7 @@
 }
 
 body {
-  margin-top: 50px;
+  margin-top: 57px;
 }
 .navbar-brand {
   font-family: var(--title-font);
@@ -20,9 +20,10 @@ body {
 }
 
 .main {
-  padding: 160px 20px;
+  padding: 160px 20px 160px 10px;
   background-image: url("/img/photo-1.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .p-port {
   font-size: 15px;
@@ -84,7 +85,7 @@ h1 {
 }
 h3 {
   font-family: var(--secondary-font);
-  font-size: 25px;
+  font-size: 25;
   font-weight: bold;
   color: white;
 }
@@ -95,7 +96,8 @@ h2 {
   text-align: left;
 }
 h4 {
-  font-family: var(--title-font);
+  font-family: var(--secondary-font);
+  font-weight: bold;
   font-size: 30px;
 }
 p {
