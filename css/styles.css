@@ -41,7 +41,7 @@ body {
   margin: 20px;
 }
 .featured {
-  background-color: #505355;
+  background-color: #f8f9fa;
 }
 .main-button:hover {
   color: black;
@@ -63,10 +63,6 @@ body {
   max-width: 80%;
 }
 
-.camera-desc h5 {
-  font-family: var(--secondary-font);
-  font-size: 15px;
-}
 .img-mobile {
   background-color: #f8f9fa;
   margin: 20px auto;
@@ -112,19 +108,22 @@ p {
   font-size: 15px;
 }
 /* about */
-
+.camera-desc h5 {
+  font-family: var(--secondary-font);
+  font-size: 15px;
+}
 .main-desc-about p {
+  margin: 20px 0 30px 0;
+  padding-right: 30px;
+
   color: black;
   font-size: 15px;
 }
 
 .about-section {
-  padding: 120px 60px 120px 0px;
+  padding: 30px 60px 30px 60px;
 }
 
-.main-desc-about h3 {
-  color: #505355;
-}
 .main-desc-about h2 {
   font-size: 80px;
   color: black;
@@ -173,5 +172,28 @@ p {
   img {
     display: block;
     margin: 0 auto;
+  }
+
+  /* media queries-about */
+
+  .main-desc-about h2 {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+  }
+  .about-img {
+    max-width: 100%;
+  }
+
+  .camera-img,
+  .camera {
+    width: 80%;
+  }
+  .camera {
+    display: block;
+    margin: 0 auto;
+  }
+  .desc-about {
+    margin-bottom: 30px;
   }
 }
