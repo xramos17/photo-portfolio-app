@@ -133,6 +133,10 @@ p {
   color: black;
   font-weight: bold;
 }
+.desc-about-top {
+  font-family: var(--secondary-font);
+  margin-left: 20px;
+}
 
 .about-img,
 .camera {
@@ -177,7 +181,7 @@ p {
   /* media queries-about */
 
   .main-desc-about h2 {
-    font-size: 50px;
+    font-size: 55px;
     color: black;
     text-align: center;
   }
@@ -194,6 +198,23 @@ p {
     margin: 0 auto;
   }
   .desc-about {
+    margin-bottom: 30px;
+  }
+  .desc-about-top {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .main-desc-about h2 {
+    font-size: 70px;
+    color: black;
+  }
+  .desc-about {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .desc-about {
+    font-size: 20px;
     margin-bottom: 30px;
   }
 }
