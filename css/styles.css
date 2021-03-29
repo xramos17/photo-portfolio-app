@@ -41,7 +41,7 @@ body {
   margin: 20px;
 }
 .featured {
-  background-color: #f8f9fa;
+  background-color: #505355;
 }
 .main-button:hover {
   color: black;
@@ -63,6 +63,10 @@ body {
   max-width: 80%;
 }
 
+.camera-desc h5 {
+  font-family: var(--secondary-font);
+  font-size: 15px;
+}
 .img-mobile {
   background-color: #f8f9fa;
   margin: 20px auto;
@@ -95,6 +99,7 @@ h2 {
   font-family: var(--title-font);
   text-align: left;
 }
+
 h4 {
   font-family: var(--secondary-font);
   font-weight: bold;
@@ -106,6 +111,42 @@ p {
   font-weight: light;
   font-size: 15px;
 }
+/* about */
+
+.main-desc-about p {
+  color: black;
+  font-size: 15px;
+}
+
+.about-section {
+  padding: 120px 60px 120px 0px;
+}
+
+.main-desc-about h3 {
+  color: #505355;
+}
+.main-desc-about h2 {
+  font-size: 80px;
+  color: black;
+}
+.desc-about {
+  margin-left: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.about-img,
+.camera {
+  max-width: 80%;
+}
+.camera {
+  width: 60%;
+}
+.camera-img {
+  width: 60%;
+}
+
+/* media queries */
 
 @media (max-width: 992px) {
   .description {
@@ -125,6 +166,7 @@ p {
   .top-desc {
     display: none;
   }
+
   h2 {
     font-size: 30px;
   }
