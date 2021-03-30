@@ -8,15 +8,16 @@ body {
 }
 .navbar-brand {
   font-family: var(--title-font);
+  padding-left: 30px;
+  font-size: 30px;
 }
 .description {
   padding: 120px 60px 120px 0px;
 }
 #navbarNav a {
   font-family: var(--secondary-font);
-}
-.navbar {
-  padding-left: 20px 20px;
+  font-size: 18px;
+  margin: 10px;
 }
 
 .main {
@@ -46,6 +47,7 @@ body {
 .main-button:hover {
   color: black;
   background-color: white;
+  transition: all 150ms ease-in-out;
 }
 
 .secondary-button {
