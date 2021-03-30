@@ -130,6 +130,7 @@ p {
 }
 .desc-about {
   margin-left: 20px;
+  font-size: 15px;
   color: black;
   font-weight: bold;
 }
@@ -208,7 +209,6 @@ p {
   .main-desc-about h2 {
     font-size: 55px;
     color: black;
-    text-align: center;
   }
   .about-img {
     max-width: 100%;
@@ -231,24 +231,26 @@ p {
 }
 @media (min-width: 768px) {
   .main-desc-about h2 {
-    font-size: 70px;
+    font-size: 60px;
     color: black;
   }
   .desc-about {
     font-size: 20px;
     margin-bottom: 30px;
-  }
-  .desc-about {
-    font-size: 20px;
-    margin-bottom: 30px;
-
     text-align: center;
+  }
+  .main-desc-about h2 {
+    text-align: center;
+    font-size: 80px;
   }
 
   /* media queries-contact */
 }
 
 @media (max-width: 768px) {
+  .main-desc-about h2 {
+    text-align: center;
+  }
   .section-contact h2 {
     font-size: 35px;
     text-align: center;
