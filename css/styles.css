@@ -175,6 +175,24 @@ p {
 .social-links a:hover {
   text-decoration: underline;
 }
+
+.section-contact-page h1 {
+  font-family: var(--title-font);
+  color: #49494a;
+  font-size: 40px;
+  text-align: center;
+  margin: 100px;
+}
+
+/* media queries */
+/* media queries */
+/* media queries */
+/* media queries */
+/* media queries */
+/* media queries */
+/* media queries */
+/* media queries */
+/* media queries */
 /* media queries */
 
 @media (max-width: 992px) {
@@ -259,5 +277,8 @@ p {
   }
   .social-links a {
     font-size: 15px;
+  }
+  .section-contact-page h1 {
+    font-size: 25px;
   }
 }
