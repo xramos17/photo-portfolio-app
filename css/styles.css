@@ -151,10 +151,6 @@ p {
   color: black;
   font-weight: bold;
 }
-.desc-about-top {
-  font-family: var(--secondary-font);
-  margin-left: 20px;
-}
 
 .about-img,
 .camera {
@@ -187,6 +183,7 @@ p {
 
 .social-links a {
   font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .social-links a:hover {
@@ -198,7 +195,8 @@ p {
   color: #49494a;
   font-size: 40px;
   text-align: center;
-  margin: 100px;
+  margin-top: 150px;
+  margin-bottom: 100px;
 }
 
 /* media queries */
