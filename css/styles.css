@@ -139,6 +139,7 @@ p {
 
 .about-section {
   padding: 30px 60px 30px 60px;
+  margin-bottom: 100px;
 }
 
 .main-desc-about h2 {
@@ -165,6 +166,10 @@ p {
 }
 
 /* contact */
+
+.section-contact-page {
+  margin-bottom: 100px;
+}
 
 .section-contact {
   font-family: var(--secondary-font);
