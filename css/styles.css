@@ -70,14 +70,29 @@ body {
   margin: 20px auto;
 }
 
+.footer {
+  background-color: #f8f9fa;
+}
 .footer i {
-  margin: 20px;
-  font-size: 35px;
-  direction: flex;
+  padding: 25px;
+  font-size: 25px;
 }
 .name-alex {
   font-family: var(--secondary-font);
+  margin: 15px 5px 0px 0px;
   font-size: 15px;
+}
+
+.shecodes-link a {
+  font-weight: bold;
+  margin: 8px 0px 0px 5px;
+  font-size: 25px;
+  color: #49494a;
+}
+
+.footer i:hover {
+  color: #49494a;
+  transition: all 150ms ease-in-out;
 }
 
 h1 {
@@ -282,5 +297,17 @@ p {
   }
   .section-contact-page h1 {
     font-size: 25px;
+  }
+
+  .name-alex {
+    margin-top: 12px;
+    font-size: 12px;
+  }
+
+  .footer i {
+    padding: 20px;
+  }
+  .shecodes-link a {
+    font-size: 22px;
   }
 }
