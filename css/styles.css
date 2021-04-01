@@ -9,9 +9,11 @@ body {
   margin-top: 57px;
 }
 .navbar-brand {
-  font-family: var(--title-font);
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
   padding-left: 30px;
-  font-size: 30px;
+  font-weight: bolder;
+  font-size: 20px;
 }
 .description {
   padding: 120px 60px 120px 0px;
@@ -19,7 +21,7 @@ body {
 #navbarNav a {
   font-family: var(--secondary-font);
   font-size: 18px;
-  margin: 10px;
+  margin: 5px;
 }
 
 .main {
