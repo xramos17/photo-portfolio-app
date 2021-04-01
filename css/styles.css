@@ -1,6 +1,8 @@
 :root {
   --title-font: "Libre Baskerville", serif;
   --secondary-font: "Nunito Sans", sans-serif;
+  --background-color: #f8f9fa;
+  --secondary-color: #49494a;
 }
 
 body {
@@ -28,7 +30,7 @@ body {
 }
 .p-port {
   font-size: 15px;
-  color: #49494a;
+  color: var(--secondary-color);
   font-family: var(--secondary-font);
 }
 
@@ -42,7 +44,7 @@ body {
   margin: 20px;
 }
 .featured {
-  background-color: #f8f9fa;
+  background-color: var(--background-color);
 }
 .main-button:hover {
   color: black;
@@ -66,12 +68,12 @@ body {
 }
 
 .img-mobile {
-  background-color: #f8f9fa;
+  background-color: var(--background-color);
   margin: 20px auto;
 }
 
 .footer {
-  background-color: #f8f9fa;
+  background-color: var(--background-color);
 }
 .footer i {
   padding: 25px;
@@ -87,11 +89,11 @@ body {
   font-weight: bold;
   margin: 8px 0px 0px 5px;
   font-size: 25px;
-  color: #49494a;
+  color: var(--secondary-color);
 }
 
 .footer i:hover {
-  color: #49494a;
+  color: var(--secondary-color);
   transition: all 150ms ease-in-out;
 }
 
@@ -125,6 +127,11 @@ p {
   font-size: 15px;
 }
 /* about */
+/* about */
+/* about */
+/* about */
+/* about */
+
 .camera-desc h5 {
   font-family: var(--secondary-font);
   font-size: 15px;
@@ -159,12 +166,16 @@ p {
 }
 .camera {
   width: 60%;
-  background-color: #f8f9fa;
+  background-color: var(--background-color);
 }
 .camera-img {
   width: 60%;
 }
 
+/* contact */
+/* contact */
+/* contact */
+/* contact */
 /* contact */
 
 .section-contact-page {
@@ -173,7 +184,7 @@ p {
 
 .section-contact {
   font-family: var(--secondary-font);
-  background-color: #f8f9fa;
+  background-color: var(--background-color);
 }
 .section-contact h2 {
   font-size: 40px;
@@ -197,7 +208,7 @@ p {
 
 .section-contact-page h1 {
   font-family: var(--title-font);
-  color: #49494a;
+  color: var(--secondary-color);
   font-size: 40px;
   text-align: center;
   margin-top: 150px;
