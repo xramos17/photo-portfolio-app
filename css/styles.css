@@ -109,6 +109,10 @@ body {
   font-size: 25px;
   color: #ba4e4e;
 }
+.shecodes-link a:hover {
+  color: #ba4e4e;
+  text-decoration: underline;
+}
 
 .footer i:hover {
   color: #ce5656;
@@ -252,7 +256,7 @@ p {
   color: white;
 }
 .gallery-head {
-  background-image: url("/img/gallery.JPG");
+  background-image: url("/img/gallery.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 90px;
