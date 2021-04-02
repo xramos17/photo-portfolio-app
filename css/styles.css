@@ -217,6 +217,30 @@ p {
   margin-bottom: 100px;
 }
 
+/* gallery */
+/* gallery */
+/* gallery */
+/* gallery */
+/* gallery */
+/* gallery */
+/* gallery */
+
+#magick-photography h4 {
+  color: var(--secondary-color);
+  font-size: 25px;
+}
+.gallery-head h2 {
+  margin: 150px 0px 70px 0px;
+  font-size: 80px;
+  color: white;
+}
+.gallery-head {
+  background-image: url("/img/gallery.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 90px;
+  margin-bottom: 60px;
+}
 /* media queries */
 /* media queries */
 /* media queries */
@@ -325,5 +349,31 @@ p {
   }
   .shecodes-link a {
     font-size: 22px;
+  }
+
+  /* gallery */
+  /* gallery */
+  /* gallery */
+  /* gallery */
+
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4,
+  .img-5,
+  .img-6,
+  .img-7,
+  .img-8,
+  .img-9,
+  .img-10,
+  .img-11,
+  .img-12,
+  .img-13,
+  .img-14,
+  .img-15,
+  .img-16,
+  .img-17 {
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
   }
 }
