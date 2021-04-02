@@ -6,17 +6,22 @@
 }
 
 body {
-  margin-top: 57px;
+  margin-top: 56px;
+}
+
+.navbar {
+  background-color: #060606;
+  color: white;
 }
 .navbar-brand {
   font-family: var(--secondary-font);
-  color: var(--secondary-color);
+
   padding-left: 30px;
   font-weight: bolder;
   font-size: 20px;
 }
 .description {
-  padding: 120px 60px 120px 0px;
+  padding: 100px 60px 120px 0px;
 }
 #navbarNav a {
   font-family: var(--secondary-font);
@@ -47,22 +52,30 @@ body {
 }
 .featured {
   background-color: var(--background-color);
+  color: #ce5656;
 }
 .main-button:hover {
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: #ce5656;
   transition: all 150ms ease-in-out;
+  border: 1px solid #ce5656;
 }
 
 .secondary-button {
-  border: 1px solid black;
-  background-color: white;
-  color: black;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
   font-family: var(--secondary-font);
   font-weight: light;
   padding: 15px 25px 15px 25px;
   border-radius: 10px;
   margin-top: 20px;
+}
+
+.secondary-button:hover {
+  color: #ce5656;
+  border: 1px solid black;
+  background-color: black;
 }
 
 .img-homepage {
@@ -91,7 +104,7 @@ body {
   font-weight: bold;
   margin: 8px 0px 0px 5px;
   font-size: 25px;
-  color: var(--secondary-color);
+  color: #ba4e4e;
 }
 
 .footer i:hover {
@@ -102,12 +115,12 @@ body {
 h1 {
   font-size: 80px;
   font-family: var(--title-font);
-  color: white;
+  color: #ce5656;
 }
+
 h3 {
   font-family: var(--secondary-font);
-  font-size: 25;
-  font-weight: bold;
+  font-size: 20px;
   color: white;
 }
 
@@ -158,7 +171,7 @@ p {
 .desc-about {
   margin-left: 20px;
   font-size: 15px;
-  color: black;
+  color: #ce5656;
   font-weight: bold;
 }
 
@@ -206,11 +219,12 @@ p {
 
 .social-links a:hover {
   text-decoration: underline;
+  color: #ce5656;
 }
 
 .section-contact-page h1 {
   font-family: var(--title-font);
-  color: var(--secondary-color);
+  color: #ce5656;
   font-size: 40px;
   text-align: center;
   margin-top: 150px;
@@ -225,8 +239,8 @@ p {
 /* gallery */
 /* gallery */
 
-#magick-photography h4 {
-  color: var(--secondary-color);
+.title-galleries {
+  color: #ce5656;
   font-size: 25px;
 }
 .gallery-head h2 {
@@ -267,12 +281,9 @@ p {
   h1 {
     font-size: 60px;
   }
-  .top-desc {
-    display: none;
-  }
 
   h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
   img {
     display: block;
