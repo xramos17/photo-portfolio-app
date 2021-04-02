@@ -11,15 +11,14 @@ body {
 
 .navbar {
   background-color: #060606;
-  color: white;
 }
 .navbar-brand {
   font-family: var(--secondary-font);
-
   padding-left: 30px;
   font-weight: bolder;
   font-size: 20px;
 }
+
 .description {
   padding: 100px 60px 120px 0px;
 }
@@ -27,6 +26,10 @@ body {
   font-family: var(--secondary-font);
   font-size: 18px;
   margin: 5px;
+}
+.navbar-toggler i {
+  font-size: 30px;
+  color: #ce5656;
 }
 
 .main {
@@ -108,7 +111,7 @@ body {
 }
 
 .footer i:hover {
-  color: var(--secondary-color);
+  color: #ce5656;
   transition: all 150ms ease-in-out;
 }
 
