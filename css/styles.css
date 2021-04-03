@@ -169,9 +169,7 @@ p {
   text-decoration: underline;
 }
 .main-desc-about p {
-  margin: 20px 0 30px 0;
   padding-right: 30px;
-
   color: black;
   font-size: 15px;
 }
@@ -190,7 +188,7 @@ p {
   margin-left: 20px;
   font-size: 15px;
   color: var(--third-color);
-  font-weight: medium;
+  font-weight: bold;
 }
 
 .about-img,
